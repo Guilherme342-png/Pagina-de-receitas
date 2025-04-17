@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Alice";
+}
+
+:root{
+    --gb-color:#573824;
+    --sf-color:#f0e8c2;
+
+    --txt-primary-color:#291b1a;
+    --txt-secondary-color:#573a37;
+    --txt-ongb-color:#f0e8c2;
+}
+
+
+
+.hd1{
+    font-size: 40px;
+    line-height: 140%;
+    color: var(--txt-primary-color);
+}
+
+.hd2{
+    font-size: 24px;
+    line-height: 150%;
+    color: var(--txt-primary-color);
+}
+
+.paragraphy{
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--txt-secondary-color);
+
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.img img {
+    width: 752px;
+    height: 400px;
+    margin-top: 24px;
+    border-radius: 20px;
+}
+
+.main{
+    width: 800px;
+    min-height: 100vh;
+    background-color: var(--sf-color);
+    border-radius: 20px;
+    
+}
+
+.decricao{
+    margin-left: 48px;
+    margin-right: 48px;
+}
+
+.decricao h1{
+    margin-bottom: 4px;
+}
+
+.receita {
+    /* background-color: red; */
+    margin: 24px 24px ; 
+}
+
+.receita p:first-of-type{
+    margin-bottom: 12px;
+
+}
+
+.ingredientes{
+    /* background-color: blue; */
+    margin-top:24px;
+    margin-left: 48px;
+    margin-right: 48px;
+}
+
+
+.ingredientes ul{
+    margin-top: 4px;
+    margin-left: 25px;
+}
+
+
+
