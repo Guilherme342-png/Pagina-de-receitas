@@ -36,9 +36,12 @@
 
 }
 
-body{
-    width: 100%;
-    min-height: 100vh;
+.body{
+    background-image: 
+    linear-gradient(rgba(101, 67, 33, 0.9), rgba(101, 67, 33, 0.9)), 
+    url("./img/main-image.png");
+    background-size: cover;
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -46,6 +49,14 @@ body{
     margin-top: 25px;
 }
 
+.main{
+    width: 800px;
+    background-color: var(--sf-color);
+    border-radius: 20px;
+
+}
+    
+    
 .img {
     display: flex;
     flex-direction: column;
@@ -60,15 +71,6 @@ body{
     border-radius: 20px;
 }
 
-.main{
-    width: 800px;
-    min-height: 100vh;
-    background-color: var(--sf-color);
-    border-radius: 20px;
-    
-    
-}
-
 .decricao{
     margin-left: 48px;
     margin-right: 48px;
@@ -79,7 +81,6 @@ body{
 }
 
 .receita {
-    /* background-color: red; */
     margin: 24px 24px ; 
 }
 
@@ -104,6 +105,7 @@ body{
 
 .preparo{
     margin-top: 24px;
+    margin-bottom: 24px;
     margin-left: 48px;
     margin-right: 48px;
 }
